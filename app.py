@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'GFG Updated Website Build Jenkins Pipeline on 31st'
+        return 'GFG Updated Website Build Jenkins Pipeline run'
 
     return app
 
