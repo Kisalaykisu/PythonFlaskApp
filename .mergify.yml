@@ -1,0 +1,11 @@
+pull_request_rules:
+  - name: request review from users and team when pull request is labeled with `review`
+    conditions:
+      - "#files>=5"
+    actions:
+      request_reviews:
+        users:
+          - Kisalaykisu
+      comment:
+        message: "Requesting the Review for Kisalay" 
+        
